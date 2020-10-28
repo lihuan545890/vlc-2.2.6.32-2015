@@ -357,7 +357,13 @@ typedef struct {
 
 static spu_area_t spu_area_create(int x, int y, int w, int h, spu_scale_t s)
 {
-    spu_area_t a = { .x = x, .y = y, .width = w, .height = h, .scale = s };
+    //spu_area_t a = { .x = x, .y = y, .width = w, .height = h, .scale = s };
+	spu_area_t a = { 0 };
+	a.x = x;
+	a.y = y;
+	a.width = w;
+	a.height = h;
+	a.scale = s;
     return a;
 }
 static spu_area_t spu_area_scaled(spu_area_t a)

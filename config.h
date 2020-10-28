@@ -703,10 +703,10 @@
 #define VLC_COMPILER "gcc version 4.9.2 (GCC)"
 
 /* user who ran configure */
-#define VLC_COMPILE_BY "sunqueen"
+#define VLC_COMPILE_BY "lihuan"
 
 /* host which ran configure */
-#define VLC_COMPILE_HOST "sunqueen-PC"
+#define VLC_COMPILE_HOST "lihuan-PC"
 
 /* Define to 1 if you want to build for Windows Store apps */
 #define VLC_WINSTORE_APP 0
